@@ -10,11 +10,36 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #e1e5ea;
+}
+
+/* Typography */
+h1 {
+  padding: 5% 0;
+  font-weight: 700;
+}
+
+h2 {
+  padding: 3% 0;
+  font-weight: 600;
+}
+
+/* Containers */
+.wrapper {
+  width: 89%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0 7%;
+}
+
+.ipv-wrapper {
+  padding: 3% 2%;
 }
 
 /* Images */
 img {
   max-width: 600px;
+  overflow: hidden;
 }
 
 /* Radio Buttons */
@@ -25,7 +50,7 @@ img {
 
 /* Navigation Bar */
 nav {
-  background-color: #ffe6cf;
+  background-color: #e1e5ea;
 }
 nav li {
   list-style: none;
