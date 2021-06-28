@@ -8,6 +8,8 @@
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <!-- Lightbox -->
+      <link href="path/to/lightbox.css" rel="stylesheet" />
       <!-- Stylesheets -->
       <link
          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
@@ -200,738 +202,607 @@
          </div>
          <br>
          <div class="row g-7">
-         <div class="col-md">
-            <div class="form-floating">
-               <input type="text" class="form-control" id="floatingInputGrid" />
-               <label for="floatingInputGrid">Associate Action</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" />
+                  <label for="floatingInputGrid">Associate Action</label>
+               </div>
             </div>
-         </div>
-         <div class="col-md">
-            <div class="form-floating">
-               <input type="text" class="form-control" id="floatingInputGrid" />
-               <label for="floatingInputGrid">Correct Action</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" />
+                  <label for="floatingInputGrid">Correct Action</label>
+               </div>
             </div>
-         </div>
-         <div class="col-md">
-            <div class="form-floating">
-               <input type="text" class="form-control" id="floatingInputGrid" />
-               <label for="floatingInputGrid">Key Driver</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" />
+                  <label for="floatingInputGrid">Key Driver</label>
+               </div>
             </div>
-         </div>
-         <div class="col-md">
-            <div class="form-floating">
-               <input type="text" class="form-control" id="floatingInputGrid" />
-               <label for="floatingInputGrid">Sub Key Driver</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" />
+                  <label for="floatingInputGrid">Sub Key Driver</label>
+               </div>
             </div>
-         </div>
-         <div class="col-md">
-            <div class="form-floating">
-               <input type="text" class="form-control" id="floatingInputGrid" />
-               <label for="floatingInputGrid">Defect Area</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" />
+                  <label for="floatingInputGrid">Defect Area</label>
+               </div>
             </div>
-         </div>
-         <div class="col-md">
-            <div class="form-floating">
-               <input type="text" class="form-control" id="floatingInputGrid" />
-               <label for="floatingInputGrid">Metric</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" />
+                  <label for="floatingInputGrid">Metric</label>
+               </div>
             </div>
-         </div>
-         <div class="col-md">
-            <div class="form-floating">
-               <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
-               <label for="floatingTextarea2">QA Comment</label>
+            <div class="col-md">
+               <div class="form-floating">
+                  <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">QA Comment</label>
+               </div>
             </div>
-         </div>
       </section>
-   </div>
-   <br><br>
+      </div>
+      <br><br>
       <!-- =============SIV Checkpoints============= -->
       <div class="wrapper">
-      <h1>SIV Checkpoints</h1>
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col">
-               <div class="siv-annotation">
-                  <p>Task Annotation:</p>
-                  <textarea rows="4" cols="50" name="siv-annotation" form="usrform"></textarea>
-                  <br><br>
-                  <p>Transfer Queue:</p>
-                  <input type="text">
+         <h1>SIV Checkpoints</h1>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col">
+                  <div class="siv-annotation">
+                     <p>Task Annotation:</p>
+                     <textarea rows="4" cols="50" name="siv-annotation" form="usrform"></textarea>
+                     <br><br>
+                     <p>Transfer Queue:</p>
+                     <input type="text">
+                  </div>
                </div>
-            </div>
-            <div class="col">
-               <div class="siv-checks">
-                  <h2>ID Validity Check</h2>
+               <div class="col">
+                  <div class="siv-checks">
+                     <h2>ID Validity Check</h2>
+                  </div>
+                  <div class="form-check form-switch">
+                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                     <label class="form-check-label" for="flexSwitchCheckChecked">Has the seller provided a full, legible copy of an acceptable ID for identification?</label>
+                  </div>
+                  <h2>ID General Check</h2>
+                  <form>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">First Name:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">First Name:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">Middle Name:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">Last Name:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">Date of Birth:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">ID Number:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">Issuing Country:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-5 col-form-label">Expiration Date:</label>
+                        <div class="col-sm-4">
+                           <input type="text" class="form-control" id="siv-input">
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-7 col-form-label">Is the document in date?</label>
+                        <div class="col-sm-4">
+                           <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio" value="option">
+                              <label class="form-check-label" for="inlineRadio">Yes</label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio" value="option">
+                              <label class="form-check-label" for="inlineRadio">No</label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-7 col-form-label">Does the name on the ID document match the name for the Beneficiary Owner on the Business License?</label>
+                        <div class="col-sm-4">
+                           <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio" value="option">
+                              <label class="form-check-label" for="inlineRadio3">Yes</label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio" value="option">
+                              <label class="form-check-label" for="inlineRadio4">No</label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label for="siv-input" class="col-sm-7 col-form-label">Does the document appear legitimate? To determine the legitimacy please review the indicators below.</label>
+                        <div class="col-sm-4">
+                           <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio" value="option">
+                              <label class="form-check-label" for="inlineRadio">Yes</label>
+                           </div>
+                           <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio" value="option">
+                              <label class="form-check-label" for="inlineRadio">No</label>
+                           </div>
+                        </div>
+                     </div>
+                  </form>
                </div>
-               <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                  <label class="form-check-label" for="flexSwitchCheckChecked">Has the seller provided a full, legible copy of an acceptable ID for identification?</label>
-               </div>
-               <h2>ID General Check</h2>
-               <form>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">First Name:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">First Name:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">Middle Name:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">Last Name:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">Date of Birth:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">ID Number:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">Issuing Country:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-5 col-form-label">Expiration Date:</label>
-                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="siv-input">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Is the document in date?</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Does the name on the ID document match the name for the Beneficiary Owner on the Business License?</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio3">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio4">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Does the document appear legitimate? To determine the legitimacy please review the indicators below.</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-               </form>
             </div>
          </div>
       </div>
-   </div>
-   <br><br>
+      <br><br>
       <!-- =============IPV Checkpoints============= -->
       <div class="container-fluid ipv-wrapper wrapper">
-         <div class="row">
-            <div class="col">
-               <div class="ipv-video">
-                  <video width="420" height="340" controls>
-                     <source src="movie.mp4" type="video/mp4">
-                     <source src="movie.ogg" type="video/ogg">
-                     Your browser does not support the video tag.
-                  </video>
-               </div>
-               <br>
-               <div class="id-image">
-                  <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/6/20/1340207591626/David-Cameron-spoof-drivi-008.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=c23d8a6123339dc1bf425abe4b83d47f" alt="driver's license">
-               </div>
-               <br>
-               <div class="additional-id-image">
-                  <img src="https://www.usefulprodocs.com/wp-content/uploads/2019/05/bank-statement.jpg" alt="bank statement"> 
-               </div>
-            </div>
-            <div class="col">
-               <div class="ipv-annotation">
-                  <p>Task Annotation:</p>
-                  <textarea rows="4" cols="40" name="ipv-annotation" form="usrform"></textarea>
-               </div>
-               <br>
-               <div class="ipv-checkpoints">
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">The ID document is of an acceptable type</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID document is in a supported language or includes a notorized translation in a supported language</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Seller's face matches ID doc</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions9" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions9" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Signature present on ID doc</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions10" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions10" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions10" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Seller transitioned between devices during call</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions11" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions11" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions11" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document is valid/unexpired</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions12" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions12" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Seller is over 18 years old</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions13" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions13" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document picture is clear and legible (text, image, watermarks, seals are clearly visible)</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions14" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions14" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document picture is in color</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions15" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions15" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document is not a screenshot</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions16" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions16" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Front and/or Back picture uploaded</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions17" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions17" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions17" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document picture matches physical document</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions18" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions18" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document picture has a signature</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions19" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions19" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions19" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Country of Issue</label>
-                     <div class="col-sm-3">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions20" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions20" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Country of Residence matches either ID document or Bank statement country</label>
-                     <div class="col-sm-3">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions21" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions21" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document Number</label>
-                     <div class="col-sm-3">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions22" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions22" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: First Name</label>
-                     <div class="col-sm-3">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions23" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions23" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Middle Name</label>
-                     <div class="col-sm-3">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions24" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions24" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Last Name</label>
-                     <div class="col-sm-3">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions25" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions25" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Date of Birth</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions26" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions26" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions26" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Expiry Date</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions27" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions27" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions27" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                        <input class="form-test form-control form-check-inline form-control-sm" type="text" .form-control-sm">
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Hologram under UV light</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions28" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions28" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions28" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document: Passes scanner check</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions29" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions29" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions29" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Photo on ID document is clear and not pasted/super imposed on top</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions30" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions30" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions30" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">ID Document looks genuine</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions31" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions31" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Acceptable Doc presented</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions32" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions32" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Document is in a supported language or includes a notorized translation in a supported language</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions33" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions33" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Document issued within last 180 days</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions34" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions34" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Document picture is not a screenshot</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions35" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions35" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Document piectyre is not cropped or cut off from any side</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions36" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions36" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Name of bank is visible and clear</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions37" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions37" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Logo of bank is visible and clear</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions38" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions38" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions38" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Seller/Business/Bank address displayed on document</label>
-                     <div class="col-sm-5">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions39" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions39" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions39" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">N/A</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Bank/CC Statement: Document looks genuine</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions40" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions40" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Do you wish to report this Seller due to this reason: Tried to bribe/collude</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions41" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions41" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Do you wish to report this Seller due to this reason: Abusive/threatening/concerning behavior</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions42" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions42" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row mb-3">
-                     <label for="siv-input" class="col-sm-7 col-form-label">Were you able to answer Seller questions?</label>
-                     <div class="col-sm-4">
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions43" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions43" id="inlineRadio" value="option">
-                           <label class="form-check-label" for="inlineRadio">No</label>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+      <div class="row">
+         <div class="col-md-5">
+            <div class="ipv-video">
+               <video width="480" height="320" controls>
+                  <source src="movie.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+               </video>
             </div>
          </div>
+         <br>
+         <div class="col-md-7">
+            <div class="ipv-annotation">
+               <p>Task Annotation:</p>
+               <textarea rows="4" cols="40" name="ipv-annotation" form="usrform"></textarea>
+            </div>
+            <br>
+            <table class="table table-striped">
+               <tbody>
+                  <tr scope="row">
+                     <td class="table-question">The ID Document is of an acceptable type</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn1" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn1" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document is in a supported language or includes a notorized translation in a supported language</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn2" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn2" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Seller's face matches ID Doc</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn3" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn3" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Signature present on ID Doc</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn4" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn4" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn4" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Seller transitioned between devices during call</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn5" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn5" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn5" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document is valid/unexpired</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn6" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn6" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Seller is over 18 years of age</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn7" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn7" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document picture is clear and legible (text, image, watermarks, seals are clearly visible)</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn8" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn8" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document picture is in color</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn9" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn9" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document picture is not a screenshot</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn10" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn10" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Front and/or Back picture uploaded</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn11" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn11" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn11" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document picture matches physical document</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn12" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn12" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document picture has a signature</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn13" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn13" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn13" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Country of Issue</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn12" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn12" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Country of Residence matches either ID document or Bank statement country</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn14" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn14" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document Number</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn15" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn15" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: First Name</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn16" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn16" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Middle Name</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn17" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn17" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Last Name</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn18" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn18" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Date of Birth</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn19" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn19" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn19" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Expiration Date</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn20" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn20" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn20" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document: Holograms under UV light</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn20" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn20" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn20" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document passes scanner check</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-bt21" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn21" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn21" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Photo on ID document is clear and not pasted/super imposed on top</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-bt22" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn22" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn22" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">ID Document looks genuine</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn23" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn23" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Acceptable Doc presented</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn24" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn24" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Document is in a supported language or includes a notarized translation in a supported language</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn25" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn25" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Document issued within last 180 days
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn26" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn26" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Document picture in clear and legible (all texts and images are clearly visible)</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn27" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn27" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Document picture is not a screenshot</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn28" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn28" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Document picture is not cropped or cut off from any side</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn29" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn29" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Name of bank is visible and clear</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn30" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn30" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Logo of bank is visible and clear</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-bt31" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn31" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn31" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Seller/Business/Bank address displayed on document</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-bt32" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn32" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn32" value="option">
+                        <label for="ipv-radio-btn">NA</label>
+                     </td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Bank/CC Statement: Document looks genuine</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn33" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn33" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Do you wish to report this Seller due to this reason: Tried to bribe/collude</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn34" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn34" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Do you wish to report this Seller due to this reason: Abusive/threatning/concerning behavior</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn35" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn35" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+                  <tr scope="row">
+                     <td class="table-question">Were you able to answer Seller questions?</td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn36" value="option">
+                        <label for="ipv-radio-btn">Yes</label>
+                     </td>
+                     <td><input type="radio" id="ipv-radio-btn" name="ipv-radio-btn36" value="option">
+                        <label for="ipv-radio-btn">No</label>
+                     </td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+      <!-- Lightbox -->
+      <script src="path/to/lightbox.js"></script>
+      <!-- Bootstrap -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"
+         ></script>
+      <!-- JS Script -->
+      <script src="index.js"></script>
    </body>
-   <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-      ></script>
-   <script src="index.js"></script>
 </html>
-
