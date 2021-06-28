@@ -64,11 +64,19 @@ nav li {
   color: #000;
 }
 
-/* Custom Table */
+/* Custom BS */
 td {
   width: 15%;
 }
 
 .table-question {
   width: 50%;
+}
+
+.siv-table-question {
+  width: 5px;
+}
+
+.siv-qa-comment {
+  padding-bottom: 7%;
 }
