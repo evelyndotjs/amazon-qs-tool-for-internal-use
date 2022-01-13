@@ -8,4 +8,4 @@ The structure of web app is mostly built using Bootstrap 5, particularly for the
 
 ## style.css
 
-Some custom styles overriding Boostrap styles.
+Some custom styles overriding Bootstrap styles.
